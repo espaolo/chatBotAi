@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const { Configuration, OpenAIApi } = require('openai');
 
 const app = express();
-const port = 3000; // Porta del Server
+const port = 5000; // Porta del Server
 
 // Inserisci qui la tua chiave API di OpenAI
 const openaiApiKey = 'YOUR-API-KEY';
